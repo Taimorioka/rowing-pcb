@@ -4310,6 +4310,18 @@
 		)
 		(uuid "a302869d-30c3-42bb-b963-98e5e3d8f523")
 	)
+	(rectangle
+		(start 67.31 95.25)
+		(end 184.15 207.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b133d09b-365c-4fb9-a3df-ee0e64771be1")
+	)
 	(text "Load Sharing / Power Path"
 		(exclude_from_sim no)
 		(at 214.63 132.08 0)
@@ -4379,6 +4391,18 @@
 			)
 		)
 		(uuid "c88e3a17-81cb-4c3e-86ef-5dae71c8cf70")
+	)
+	(text "Gyro"
+		(exclude_from_sim no)
+		(at 72.136 98.298 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3 3)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "e00f3727-2e9c-40b6-8234-f0f58918db18")
 	)
 	(junction
 		(at 323.85 149.86)
