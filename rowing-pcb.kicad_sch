@@ -9243,7 +9243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "21-0140_T2855+3_MXM"
+		(property "Footprint" ""
 			(at 59.69 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9402,7 +9402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-0140_T2855+3_MXM"
+		(property "Footprint" ""
 			(at 148.59 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9562,7 +9562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 313.69 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9879,7 +9879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "21-0140_T2855+3_MXM"
+		(property "Footprint" ""
 			(at 148.59 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10597,7 +10597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-0140_T2855+3_MXM"
+		(property "Footprint" ""
 			(at 68.58 127 0)
 			(hide yes)
 			(show_name no)
@@ -10836,7 +10836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "21-0140_T2855+3_MXM"
+		(property "Footprint" ""
 			(at 148.59 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11387,7 +11387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "21-0140_T2855+3_MXM"
+		(property "Footprint" ""
 			(at 46.99 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11468,7 +11468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-0140_T2855+3_MXM"
+		(property "Footprint" ""
 			(at 143.51 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -11934,7 +11934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 392.43 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -12017,7 +12017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "21-0140_T2855+3_MXM"
+		(property "Footprint" ""
 			(at 55.88 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -12254,7 +12254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 276.86 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -12923,7 +12923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 251.46 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -13734,7 +13734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 144.78 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -14466,7 +14466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "21-0140_T2855+3_MXM"
+		(property "Footprint" ""
 			(at 101.6 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14624,7 +14624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-0140_T2855+3_MXM"
+		(property "Footprint" ""
 			(at 154.94 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -14707,7 +14707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "21-0140_T2855+3_MXM"
+		(property "Footprint" ""
 			(at 66.04 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -14868,7 +14868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "21-0140_T2855+3_MXM"
+		(property "Footprint" ""
 			(at 43.18 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -15106,7 +15106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 133.35 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -15266,7 +15266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "21-0140_T2855+3_MXM"
+		(property "Footprint" ""
 			(at 80.01 173.99 0)
 			(hide yes)
 			(show_name no)
