@@ -213,8 +213,6 @@
         0.0,
         0.1,
         0.15,
-        0.25,
-        0.35,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -544,7 +542,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "rowing-pcb.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -634,6 +632,12 @@
           "group_by": false,
           "label": "Description_1",
           "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
           "show": false
         },
         {
@@ -805,7 +809,7 @@
         "uuid": "e59a3177-63ac-4d56-82b0-df8f9c242b4f"
       }
     ],
-    "used_designators": "AE1,D1,D4-6,#PWR1-4,#PWR8-56,SW1-2,U2-7,R3-4,R6-18,C2-22,Q1-2,J1-4",
+    "used_designators": "AE1,SW1-2,U2-7,R1-4,R6-18,R23,C2-22,D1,D4-6,Q1-2,#PWR1-4,#PWR8-53,#PWR57-58,J1-5",
     "variants": []
   },
   "sheets": [
