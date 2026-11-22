@@ -76,7 +76,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|132927252|81222683|809f3122-447a-4c30-929d-c9cfcabb3cd7|9ec96862-f584-428b-9998-22551ee7f320",
+          ""
+        ],
+        [
+          "courtyards_overlap|177927252|81222683|9ec96862-f584-428b-9998-22551ee7f320|ed98b529-7527-4dff-8b68-3e953bde2859",
+          ""
+        ],
+        [
+          "items_not_allowed|133300000|84650000|4ed4da34-e1c5-4003-9a07-b658f3e3b9ec|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|133300000|84650000|809f3122-447a-4c30-929d-c9cfcabb3cd7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|178300000|84650000|54a1ad30-5997-4a0a-85b1-4dcd78458077|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|178300000|84650000|ed98b529-7527-4dff-8b68-3e953bde2859|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "npth_inside_courtyard|133300000|84650000|4ed4da34-e1c5-4003-9a07-b658f3e3b9ec|9ec96862-f584-428b-9998-22551ee7f320",
+          ""
+        ],
+        [
+          "npth_inside_courtyard|178300000|84650000|54a1ad30-5997-4a0a-85b1-4dcd78458077|9ec96862-f584-428b-9998-22551ee7f320",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -94,10 +127,10 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "warning",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
@@ -133,7 +166,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "warning",
+        "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -146,20 +179,20 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.1,
+        "min_connection": 0.1,
+        "min_copper_edge_clearance": 0.15,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.15,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -213,6 +246,8 @@
         0.0,
         0.1,
         0.15,
+        0.25,
+        0.35,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -511,7 +546,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -522,7 +557,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -542,7 +577,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "rowing-pcb.step",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -632,12 +667,6 @@
           "group_by": false,
           "label": "Description_1",
           "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
           "show": false
         },
         {
@@ -809,7 +838,7 @@
         "uuid": "e59a3177-63ac-4d56-82b0-df8f9c242b4f"
       }
     ],
-    "used_designators": "AE1,SW1-2,U2-7,R1-4,R6-18,R23,C2-22,D1,D4-6,Q1-2,#PWR1-4,#PWR8-53,#PWR57-58,J1-5",
+    "used_designators": "AE1,D1,D4-6,#PWR1-4,#PWR8-56,SW1-2,U2-7,R3-4,R6-18,C2-22,Q1-2,J1-4",
     "variants": []
   },
   "sheets": [
