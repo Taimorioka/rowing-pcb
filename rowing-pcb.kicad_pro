@@ -689,12 +689,6 @@
         },
         {
           "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "PARTREV",
           "name": "PARTREV",
           "show": false
@@ -788,6 +782,18 @@
           "label": "MPN",
           "name": "MPN",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PACKAGE_ID",
+          "name": "SNAPEDA_PACKAGE_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "MANUFACTURER",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -838,7 +844,7 @@
         "uuid": "e59a3177-63ac-4d56-82b0-df8f9c242b4f"
       }
     ],
-    "used_designators": "AE1,D1,D4-6,#PWR1-4,#PWR8-56,SW1-2,U2-7,R3-4,R6-18,C2-22,Q1-2,J1-4",
+    "used_designators": "AE1,D1,D4-6,#PWR1-4,#PWR8-56,#PWR59-69,SW1-2,U2-7,R3-4,R6-18,C2-22,Q1-2,J1-4",
     "variants": []
   },
   "sheets": [
